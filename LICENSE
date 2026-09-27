@@ -1,119 +1,24 @@
-Magrathean UK Ltd. — Proprietary Software Licence (Teslatlas)
+Teslatlas
 
-Copyright (c) 2026 Magrathean UK Ltd. All rights reserved.
+Copyright © 2026 MAGRATHEAN UK LTD ("Magrathean"). All rights reserved.
 
-1. Ownership.
-   This repository and its original source code, documentation, configuration,
-   schemas, tests, designs, build scripts, generated artefacts, and all other
-   contents (the "Software") are the proprietary property of Magrathean UK Ltd.,
-   a company registered in England and Wales (Company No. 16955343) with
-   registered office at 16 Caledonian Court West Street, Watford, England,
-   WD17 1RY ("Magrathean"). All right, title, and interest in and to the
-   Software, including all associated intellectual-property rights, are owned
-   by Magrathean and its licensors.
+1. Ownership. This repository and its contents (the "Software") belong to Magrathean.
 
-2. No Licence Granted by Default.
-   Public availability of this repository on a hosted code-sharing platform
-   (such as GitHub) does not constitute a grant of any licence to copy, modify,
-   publish, distribute, sublicense, sell, lease, host as a service, perform,
-   display, or create derivative works from the Software. No licence, express
-   or implied, is granted under any patent, copyright, trade mark, trade
-   secret, or other intellectual-property right of Magrathean except as
-   expressly set out in a separate written agreement signed by an authorised
-   representative of Magrathean.
+2. Reading the source. The Software is published so that it can be read. You may view it,
+   and fork it on GitHub, to the extent GitHub's Terms of Service allow.
 
-3. Permitted Internal Use.
-   Magrathean and its directors, employees, and authorised contractors may use,
-   modify, build, test, deploy, and improve the Software for internal business
-   purposes.
+3. Everything else is reserved. Unless Magrathean agrees in writing, you may not use, copy,
+   modify, merge, publish, distribute, sublicense or sell the Software or any part of it, or
+   make works based on it. This does not restrict anything the law allows you to do
+   regardless of a licence.
 
-4. Reading and Inspection.
-   Members of the public may view this repository through the hosted-platform
-   interface for the purpose of evaluating Magrathean's products, services, and
-   engineering practices. This permission does not include the right to clone,
-   fork, redistribute, modify, or incorporate the Software (or any portion of
-   it) into any other work.
+4. The app. Using a released version of Teslatlas is governed by its terms of use
+   (https://teslatlas.eu/app/terms/), not by this licence. Teslatlas's application source is
+   not published in this repository.
 
-5. Third-Party Components.
-   The Software may incorporate or be distributed alongside third-party
-   components governed by their own licences (open-source or otherwise). Those
-   third-party components are listed in `license.md` and in-tree licence files.
-   Nothing in
-   this Licence limits, modifies, or supersedes the rights granted directly by
-   those third-party licences for those third-party components, nor the
-   obligations they impose on the licensee of those components.
+5. No warranty. To the extent the law allows, the Software is provided "as is", without
+   warranty of any kind, and Magrathean is not liable for any loss arising from it.
 
-6. App Store Distribution.
-   Where the Software corresponds to an application distributed through the
-   Apple App Store or another platform store, the end-user terms applicable to
-   the binary distributed through that store (including Apple's Licensed
-   Application End User Licence Agreement and any in-app or web-published Terms
-   of Service published by Magrathean at https://teslatlas.eu/terms/)
-   govern that end use, in addition to and not in derogation of this Licence as
-   it applies to the source repository. The Privacy Policy applicable to the
-   Teslatlas application is published at
-   https://teslatlas.eu/privacy/.
+6. Law. This licence is governed by the law of England and Wales.
 
-7. Trade Marks.
-   "Magrathean", "Magrathean UK", and "Teslatlas" are trade marks or
-   unregistered trade marks of Magrathean. No right or licence is granted under
-   this Licence to use any Magrathean trade mark, logo, or trade dress without
-   prior written permission. References in the Software to third-party names,
-   logos, or trade marks (including, without limitation, Tesla, Tesla, Inc.,
-   the Tesla logo, Model S, Model 3, Model X, Model Y, Cybertruck, Roadster,
-   Powerwall, Supercharger, TeslaMate, MyTeslaMate, PostgreSQL, Cloudflare,
-   Cloudflare Access, Apple, iOS, macOS, and Swift) are for descriptive
-   interoperability only. All such marks remain the property of their
-   respective owners. The Software is not affiliated with, endorsed by,
-   sponsored by, or in any way officially connected to Tesla, Inc., the
-   TeslaMate project, MyTeslaMate, the PostgreSQL project, Cloudflare, or
-   Apple.
-
-8. Diagnostic Outputs.
-   Battery-health predictions, charge-doctor findings, parked-drain detection,
-   efficiency trends, cost tracking, and any other estimate or prediction
-   produced by the Software are derived from machine-learning models or
-   heuristics applied to user-supplied data and are provided for informational
-   purposes only. They are not a diagnostic or engineering report and are not a
-   substitute for inspection by a Tesla-authorised service centre, an
-   independent qualified technician, or an automotive engineer.
-
-9. Termination.
-   Any unauthorised use of the Software automatically terminates any
-   permissions granted under sections 3 and 4 of this Licence and may give rise
-   to civil and criminal liability under applicable copyright, trade mark,
-   contract, computer-misuse, and trade-secret laws.
-
-10. No Warranty.
-    THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF
-    ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING
-    WITHOUT LIMITATION ANY IMPLIED WARRANTY OF MERCHANTABILITY, SATISFACTORY
-    QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS, OR
-    NON-INFRINGEMENT. MAGRATHEAN DOES NOT WARRANT THAT THE SOFTWARE WILL BE
-    UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE. NOTHING IN THIS PARAGRAPH
-    EXCLUDES OR LIMITS LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED OR LIMITED.
-
-11. Limitation of Liability.
-    TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL MAGRATHEAN, ITS
-    DIRECTORS, OFFICERS, EMPLOYEES, OR CONTRACTORS BE LIABLE FOR ANY INDIRECT,
-    INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR
-    ANY LOSS OF PROFITS, REVENUE, DATA, BUSINESS OPPORTUNITY, GOODWILL, OR
-    ANTICIPATED SAVINGS, ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
-    THIS LICENCE, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT
-    LIABILITY, OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-    DAMAGES. NOTHING IN THIS PARAGRAPH EXCLUDES OR LIMITS LIABILITY FOR DEATH
-    OR PERSONAL INJURY CAUSED BY NEGLIGENCE, FRAUD OR FRAUDULENT
-    MISREPRESENTATION, OR ANY OTHER LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED
-    OR LIMITED.
-
-12. Governing Law and Jurisdiction.
-    This Licence and any non-contractual obligations arising out of or in
-    connection with it are governed by the laws of England and Wales. The
-    courts of England and Wales have exclusive jurisdiction to settle any
-    dispute or claim arising out of or in connection with this Licence or its
-    subject matter.
-
-13. Contact.
-    For licensing enquiries, contact: contact@magrathean.uk
-    Magrathean UK Ltd., 16 Caledonian Court West Street, Watford, England,
-    WD17 1RY.
+Permission requests: contact@magrathean.uk

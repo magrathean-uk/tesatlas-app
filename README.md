@@ -1,63 +1,66 @@
-# Teslatlas
+<p align="center">
+  <img src="https://raw.githubusercontent.com/magrathean-uk/magrathean-uk/main/assets/icons/teslatlas.png" width="96" height="96" alt="">
+</p>
 
-**Independent, local-first Apple app for TeslaMate and MyTeslaMate driving history.**
+<h1 align="center">Teslatlas</h1>
 
-Teslatlas turns imported vehicle history into a native experience for iPhone, iPad, and Mac. It is read-only: it does not send vehicle commands and does not write changes back to your source.
+<p align="center">Local-first Apple app for TeslaMate and MyTeslaMate driving history — public legal and product documentation.</p>
 
-[Website](https://teslatlas.eu) · [Magrathean UK](https://magrathean.uk)
+<p align="center">
+  <a href="https://teslatlas.eu">Website</a> ·
+  <a href="https://teslatlas.eu/app/privacy/">Privacy</a> ·
+  <a href="https://teslatlas.eu/app/terms/">Terms</a>
+</p>
 
-## About
+## Overview
 
-Teslatlas imports from a separately installed TeslaMate PostgreSQL source or a MyTeslaMate account into an on-device mirror. After sync, you can browse drives, charging, routes, energy, costs, and battery trends offline on your device.
+Teslatlas is a proprietary Apple app. It imports vehicle history from a
+separately configured TeslaMate PostgreSQL source or a MyTeslaMate account
+into an on-device mirror, then shows drives, charging, routes, costs and
+battery trends offline. It is read-only: it never sends vehicle commands and
+never writes back to a source. A separate open-source
+[Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) is available
+as an optional self-hosted sync collector.
 
-Teslatlas is not affiliated with, endorsed by, or supported by Tesla, TeslaMate, or MyTeslaMate. It does not contain, bundle, or redistribute TeslaMate.
-
-> This project is an unofficial community tool and is not affiliated with, endorsed by, or supported by the official TeslaMate project.
+Application source is not published. This repository holds only Teslatlas's
+public legal and support documents.
 
 ## Features
 
-- **Drives and trips** — imported history with route, distance, energy, and cost in context
-- **Charging** — sessions, energy, and cost review
-- **Maps** — browse imported routes on device
-- **Trends** — efficiency and battery-health estimates with coverage context, not diagnostic or warranty advice
-- **Offline after import** — use the on-device mirror without staying connected
-- **Read-only by design** — no vehicle commands, no write-back to TeslaMate or MyTeslaMate
+- Drives and trips, with route, distance, energy and cost
+- Charging session review
+- On-device maps of imported routes
+- Efficiency and battery-health trends — informational, not diagnostic or warranty advice
+- Offline use after import
+- Read-only by design: no vehicle commands, no write-back to TeslaMate or MyTeslaMate
 
 ## Requirements
 
-- A separately configured **TeslaMate** instance you control, or a **MyTeslaMate** account
-- A supported Apple device (iPhone, iPad, or Mac)
+A separately configured TeslaMate instance you control, or a MyTeslaMate
+account, and a supported Apple device (iPhone, iPad or Mac). Teslatlas does
+not connect directly to the car.
 
-Teslatlas does not connect directly to the car.
+## Documentation
 
-## Privacy
-
-Teslatlas is local-first. Imported vehicle history stays on the device. Magrathean does not operate a vehicle-data relay and does not receive your drive history merely because the app is installed.
-
-Read the [Privacy Policy](PRIVACY.md).
-
-## Support
-
-- Website: [teslatlas.eu](https://teslatlas.eu)
-- Email: [contact@magrathean.uk](mailto:contact@magrathean.uk)
-- See [SUPPORT.md](SUPPORT.md)
-
-TeslaMate installation and operation are covered by the [official TeslaMate documentation](https://docs.teslamate.org/).
-
-## Related
-
-- [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) — optional self-hosted collector and local sync hub (open source)
-- [TeslaMate](https://github.com/teslamate-org/teslamate)
-
-## Legal
-
-- [Privacy Policy](PRIVACY.md)
-- [Consumer Terms](TERMS.md)
-- [Subscription Terms](SUBSCRIPTION.md)
+- [Privacy notice](PRIVACY.md) — current version at [teslatlas.eu/app/privacy/](https://teslatlas.eu/app/privacy/)
+- [Terms of use](TERMS.md) — current version at [teslatlas.eu/app/terms/](https://teslatlas.eu/app/terms/)
+- [Subscription terms](SUBSCRIPTION.md)
 - [Custom Apple EULA](EULA.md)
-- [Licence](LICENSE)
-- [Security](SECURITY.md)
+- [Trademarks](TRADEMARKS.md)
+- [Security policy](.github/SECURITY.md)
+- [Support](.github/SUPPORT.md)
 
-Copyright (c) 2026 Magrathean UK Ltd. All rights reserved.
+## TeslaMate compatibility
 
-The Teslatlas application is proprietary. This repository publishes product documentation and legal notices. Application source is not published.
+TeslaMate is a separate open-source project maintained by its community. We
+appreciate the work of its maintainers and contributors. Teslatlas is
+independent, does not bundle TeslaMate, and never changes TeslaMate data.
+
+This project is an unofficial community tool and is not affiliated with, endorsed by, or supported by the official TeslaMate project. See the [TeslaMate project](https://github.com/teslamate-org/teslamate) and its [documentation](https://docs.teslamate.org/).
+
+## Licence
+
+Teslatlas is proprietary; all rights reserved. See [LICENSE](LICENSE).
+Application source is not published in this repository.
+
+<sub>© 2026 MAGRATHEAN UK LTD · <a href="https://github.com/magrathean-uk/.github/blob/main/LEGAL.md">Legal</a></sub>

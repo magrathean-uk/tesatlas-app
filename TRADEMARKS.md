@@ -1,4 +1,7 @@
-# Trademarks — Teslatlas App Documentation
+# Trademarks
 
-- "Magrathean", "Magrathean UK", and "Teslatlas" are trademarks of Magrathean UK Ltd.
-- "Tesla", "TeslaMate", and "Apple" are trademarks of their respective owners.
+Teslatlas's use of its own and other companies' names is covered by the
+[Magrathean legal notice](https://github.com/magrathean-uk/.github/blob/main/LEGAL.md#names).
+
+This file stays in this repository, at this path, so links that already point
+to `TRADEMARKS.md` keep working.
