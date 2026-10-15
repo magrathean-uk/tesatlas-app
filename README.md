@@ -18,9 +18,9 @@ Tesatlas is a proprietary Apple app. It imports vehicle history from a
 separately configured TeslaMate PostgreSQL source or a MyTeslaMate account
 into an on-device mirror, then shows drives, charging, routes, costs and
 battery trends offline. It is read-only: it never sends vehicle commands and
-never writes back to a source. A separate open-source
-[Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) is available
-as an optional self-hosted sync collector.
+never writes back to a source. The separate open-source
+[Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) is a distinct
+project; the current Tesatlas App does not connect to it.
 
 Application source is not published. This repository holds only Tesatlas's
 public legal and support documents.
