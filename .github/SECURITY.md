@@ -1,8 +1,8 @@
-# Security Policy — Teslatlas Documentation
+# Security Policy — Tesatlas Documentation
 
 ## Private Reporting
 
-Report vulnerabilities through GitHub private vulnerability reporting or email `contact@magrathean.uk` with subject `SECURITY: Teslatlas Documentation`.
+Report vulnerabilities through GitHub private vulnerability reporting or email `contact@magrathean.uk` with subject `SECURITY: Tesatlas Documentation`.
 
 Do not publish credentials, private keys, database dumps, signing certificates, or exploit details.
 

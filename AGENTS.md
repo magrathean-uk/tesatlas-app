@@ -1,3 +1,27 @@
+# tesatlas-app (Tesatlas public documentation)
+
+Public App documentation only: EULA, privacy, terms, subscription and trademark copy for
+the Tesatlas iOS app. No application code, build system or test suite. Remote:
+`magrathean-uk/tesatlas-app` (public).
+
+## Working rules
+
+- Keep the separate Teslatlas Hub name and links; do not conflate the App and the Hub.
+- Preserve purchase and bundle identifiers, subscription terms and original evidence
+  exactly. Legal files are owner-controlled: change `LICENSE`, `EULA.md`, `PRIVACY.md`,
+  `TERMS.md`, `SUBSCRIPTION.md`, `TRADEMARKS.md` only on the owner's explicit instruction.
+- Apply `NEXT-RELEASE-URLS.md` at the next release (product sites -> `https://magrathean.uk/solutions/<slug>/`, support -> `contact+<slug>@magrathean.uk`), then remove that file.
+
+## Validation
+
+Documentation only: `git diff --check`, check relative links and headings, confirm the
+App Store facts match the shipped app. No build is needed; say what was checked.
+
+## Models
+
+Any agent for prose edits (Claude Sonnet 5.5, or Codex `gpt-6.1-sol`). Keep changes small
+and factual; do not invent product claims.
+
 <!-- clean-development-policy:v4 (clean-development 0.6.0; canonical: bolyki-dev/clean-development/docs/policy-snippet.md) -->
 ## Clean development (mandatory)
 
